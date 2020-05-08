@@ -13,4 +13,4 @@ The OAuth 2.0 specification defines a delegation protocol that is useful for con
 5) This will automatically redirect to the facebook or google resource server and enter resourse server correct credential.        then redirect to authorization server.
 6) After user Authorized from Authorization server application will login customer and display customer information in            UserProfile.html page.
 7) Logout button can use for logout the user and after logout will display home page in index.html.
-8) you can see every steps in uploaded report and can see vedio on youtube url is                      https://www.youtube.com/watchv=KNOcMANOLoY&feature=youtu.be
+8) you can see every steps in uploaded report and can see vedio on youtube url is                      https://www.youtu.be/KNOcMANOLoY
