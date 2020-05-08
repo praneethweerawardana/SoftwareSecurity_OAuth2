@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+<div class="container">
+  
+    <div class="row">
+      <h2 style="text-align:center">Software Security OAuth2 Assignment</h2>
+      
+
+      <div class="col">
+      
+      <table id="customers">
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Email</th>
+  </tr>
+  <tr>
+    
+    <td><h4 th:text="${user.firstName}"></h4></td>
+    <td> <h4 th:text="${user.lastName}"></h4></td>
+    <td> <h4 th:text="${user.imageUrl}"></h4></td>
+    
+  </tr>
+   
+</table>
+     <a th:href="@{'/logout'}"> <button class="button button4">  Log out</button> </a>
+       
+      </div>
+      
+      <img th:src="@{/images/ss.jpg}" alt="Paris" width="300" height="300">
+        
+    </div>
+  
+ 
+  
+</div>
+
+
+</body>
+</html>
